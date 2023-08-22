@@ -1,0 +1,28 @@
+
+section{
+    padding: 10em;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+h2{
+    color: var(--deep-blue, #2A8EF1);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p, li{
+    text-align: justify;
+    color: var(--for-text, #525252);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
