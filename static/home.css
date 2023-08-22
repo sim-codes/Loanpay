@@ -135,7 +135,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-span{
+.top-txt span{
     color: var(--deep-blue, #2A8EF1);
 font-family: Poppins;
 font-size: 40px;
@@ -143,6 +143,11 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
+
+.s-txt{
+    color: var(--deep-blue, #2A8EF1);
+}
+
 
 .gt{
     background: var(--deep-blue, #2A8EF1);
@@ -273,15 +278,37 @@ line-height: normal;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 2em;
 }
 
 .apply-txt-0{
-    width: 70em;
-    padding: 0 10em;
+    width: 50em;
+    margin: 0 5em;
     text-align: right;
 }
 
 .apply-txt-0 p{
     text-align: right;
+    
+}
+
+.apply-grid-1{
+    flex-wrap: wrap;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.apply-txt-1{
+    width: 70em;
+    padding: 0 5em;
+    text-align: left;
+}
+
+.apply-txt-1 p{
+    text-align: left;
     
 }
