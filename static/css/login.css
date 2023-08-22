@@ -68,3 +68,32 @@ p{
     align-items: flex-start;
     gap: 10px;
 }
+
+::-webkit-input-placeholder { /* Edge */
+    color: var(--fade, #B4B4B4);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--fade, #B4B4B4);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  ::placeholder {
+    color: var(--fade, #B4B4B4);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  
