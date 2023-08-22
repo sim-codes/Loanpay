@@ -91,6 +91,7 @@ nav a:active{
 }
 
 .auth{
+    cursor: pointer;
     /* Layout */
     display: flex;
     padding: 10px 20px;
