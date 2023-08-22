@@ -50,10 +50,14 @@ right: -50em;
 z-index: 0;
 }
 
+h1 a{
+    color: var(--deep-blue, #2A8EF1);
+    text-decoration: none;
+}
+
 
 
 .logo{
-    color: var(--deep-blue, #2A8EF1);
     font-family: Poppins;
     font-size: 3em;
     font-style: normal;
@@ -164,7 +168,6 @@ line-height: normal;
     color: var(--white, #FFF);
 
 }
-
 .ex{
     display: flex;
     padding: 10px 20px;
@@ -179,6 +182,7 @@ border: 1px solid var(--for-text, #525252);
 
 
 .top-btn input{
+    margin-top: 1em;
     height: auto;
     width: 10em;
     
