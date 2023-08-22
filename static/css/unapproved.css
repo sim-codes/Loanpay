@@ -1,0 +1,43 @@
+.approve-ctn{
+    height: 90vh;
+    display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 52px;
+}
+
+.approve-txt{
+    padding: 0 15em;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.approve-txt p{
+    color: var(--for-text, #525252);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-ctn a{
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 1px solid var(--deep-blue, #2A8EF1);
+    text-decoration: none;
+
+
+    color: var(--deep-blue, #2A8EF1);
+text-align: center;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
