@@ -1,7 +1,10 @@
-
+body{
+    font-family: Poppins;
+    height: 90vh;
+}
 
 .breadcrumbs{
-    margin: 15em;
+    margin-top  : 0 0 10em 0;
     display: inline-flex;
     align-items: flex-start;
     gap: 30px;
@@ -17,28 +20,40 @@ font-weight: 400;
 line-height: normal;
 }
 
-
-
-
-
-
-body{
-    font-family: Poppins;
-}
-
-.login{
-    flex-wrap: wrap;
-    width: 100%;
+.details-ctn{
+    width: 90vw;
     display: inline-flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 
+
+
+
+.form-ctn h2{
+    color: var(--deep-blue, #2A8EF1);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
 .form-ctn{
-    width: 50em;
-    padding: 10em;
+    display: flex;
+    width: 890px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.form-right{
+    display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+gap: 25px;
 }
 
 form{

@@ -25,35 +25,36 @@
 
     <section class="details-ctn">
 
-        <div class="breadcrumbs">
-            <a href="#">Personal Information</a>
-            <a href="#">Loan Details</a>
-            <a href="#">Financial Information</a>
-            <a href="#">Document Upload</a>
+        <div class="form-ctn">
+            <div class="breadcrumbs">
+                <a href="#">Personal Information</a>
+                <a href="#">Loan Details</a>
+                <a href="#">Financial Information</a>
+                <a href="#">Document Upload</a>
+            </div>
+
+            <h2>Personal Information</h2>
+            <p>Fill the form below</p>
+
+            <form action="/account/approved.html">
+                <div class="form-left">
+                    <label for="name">Full Name:</label>
+                    <input type="text" placeholder="Mickey James Bucket" class="txt-inp">
+                    <label for="email">Email Address:</label>
+                    <input type="email" placeholder="loanpay@gmail.com" class="txt-inp">
+                    <label for="name">Phone Number:</label>
+                    <input type="text" placeholder="+234 - " class="txt-inp">
+                </div>
+
+                <div class="form-right">
+
+                    <label for="name">Date of Birth:</label>
+                    <input type="date" placeholder="21/10/2000" class="txt-inp">
+                    <input type="button" value="Next" class="log-inp">
+                </div>
+            </form>
         </div>
-
-        <h2>Personal Information</h2>
-        <p>Fill the form below</p>
-
-        <form action="/account/approved.html">
-            <div class="form-left">
-                <label for="name">Full Name:</label>
-                <input type="text" placeholder="Mickey James Bucket" class="txt-inp">
-                <label for="email">Email Address:</label>
-                <input type="email" placeholder="loanpay@gmail.com" class="txt-inp">
-                <label for="name">Phone Number:</label>
-                <input type="text" placeholder="+234 - " class="txt-inp">
-            </div>
-
-            <div class="form-right">
-
-                <label for="name">Date of Birth:</label>
-                <input type="date" placeholder="21/10/2000" class="txt-inp">
-                <input type="button" value="Next" class="log-inp">
-            </div>
-           
-            
-        </form>
+        
     </section>
 </body>
 </html>
