@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Dashboard</title>
-    <link rel="stylesheet" href="/static/css/dashboard.css">
+    <title>Loanpay User Loan History</title>
+    <link rel="stylesheet" href="/static/css/user-loan.css">
 </head>
 <body>
     <div class="side-bar">
@@ -62,7 +62,28 @@
                 </a>
             </nav>
         </header>
-        <img src="/static/images/user-dashboard.svg" alt="">
+        <div class="loan-summary">
+            
+            <h3>Loan Balance: N500,000</h3>
+            <p>Paid: N200,000</p>
+            <p>Amount due: N300,000</p>
+
+            <form id="paymentForm">
+                
+                <div class="form-group">
+                  <label for="amount">Amount</label>
+                  <input class="txt-inp" type="tel" id="amount" required />
+                </div>
+                
+                <div class="form-submit">
+                  <button type="submit" class="btn-inp" onclick="payWithPaystack()"> Pay </button>
+                </div>
+              </form>
+              
+        </div>
     </div>
+
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src="./paystack.js"></script>
 </body>
 </html>
