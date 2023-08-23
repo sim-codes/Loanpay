@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>About Loanpay</title>
     <link rel="stylesheet" href="./static/css/home.css">
     <link rel="stylesheet" href="./static/css/about.css">
 </head>
 <body>
     <header>
-        <h1 class="logo"><a href="/">Loanpay</a></h1>
+        <h1 class="logo"><a href="./index.html">Loanpay</a></h1>
         <nav>
-            <a href="/">Home</a>
+            <a href="./index.html">Home</a>
             <a href="./about.html">About Us</a>
-            <a href="#">Blog</a>
+            <a href="./blog.html">Blog</a>
             <a href="#">Contact-us</a>
             <a href="./account/login.html">
-            <input type="button" value="Login" class="auth">
-        </a>
+                <img src="./static/images/avatar.svg" alt="">
+            <!-- <input type="button" value="Login" class="auth"> -->
+            </a>
         </nav>
     </header>
 
@@ -44,36 +45,71 @@
                 <li><strong>Join Our Community:</strong> We're more than just a loan app – we're a community of individuals striving for financial progress. Whether you're a business owner looking to expand, a student pursuing education, or someone facing unexpected expenses, <span class="s-txt">Loanpay</span> is here to support you every step of the way.</li>
             </ul>
         </div>
+
+        <h2>Loan Services</h2>
+        <div class="business-ctn">
+            <h2>Business Loans</h2>
+            <p>
+                Empower your business to thrive with our tailored business loan solutions. 
+                We understand the challenges that entrepreneurs and business owners face, 
+                which is why we offer business loans that can help you expand, invest in new equipment,
+                 hire staff, or manage day-to-day operations. Unlock the potential of your business with our 
+                 financing options.
+            </p>
+        </div>
+
+        <div class="emergency-ctn">
+            <h2>Emergency Loans</h2>
+            <p>
+                Life is full of unexpected moments, and we're here to support 
+                you during emergencies. Our emergency loan services provide a 
+                quick and efficient solution to handle unforeseen expenses, 
+                medical bills, home repairs, and more. With rapid approvals and 
+                straightforward terms, you can get the funds you need when you need them the most.
+            </p>
+        </div>
     </section>
 
 
     <footer>
         <div class="ft-grid">
             <box-0>
-                <h3>Blog & Resources:</h3>
-                <p>Explore our blog for financial insights, tips, and success stories. We're dedicated to helping you make informed decisions about your financial journey. Discover valuable resources to enhance your financial literacy.</p>
+                <h3>Subscribe to our newsletter</h3>
+                <form action="" class="footer-form">
+                    <input type="email" placeholder="Enter email address" class="ft-txt-inp">
+                    <input type="button" value="Submit" class="sub-inp">
+                </form>
             </box-0>
 
             <box-1>
-                <h3>FAQs:</h3>
-                <p>Browse through our Frequently Asked Questions to find quick answers to common queries. Visit our FAQ page to learn more about our loan application process, eligibility criteria, repayment options, and more.</p>
-            </box-1>
-
-            <box-1>
-                <h3>Privacy & Security:</h3>
-                <p>We take your privacy seriously. Learn about our data protection measures and commitment to keeping your personal and financial information secure. Read our Privacy Policy to understand how we handle your data.</p>
-            </box-1>
-
-            <box-1>
                 <h3>Contact Us:</h3>
-                <p>
-                    Have questions or need assistance? Our dedicated support team is here to help. Reach out to us at Loanpay@gmail.com or call us at :
-                    +234-5678-9049</p>
+                <p>Have questions or need assistance? 
+                    Our dedicated support team is here to help. 
+                    Reach out to us at:
+                </p>
+                <div class="email-ctn">
+                    <img src="./static/images/email.svg" alt="">
+                    <p>info@loanpay.com</p>
+                </div>
+
+                <div class="tel-ctn">
+                    <img src="./static/images/tel.svg" alt="">
+                    <p>+234 567 891 2345</p>
+                </div>
             </box-1>
 
             <box-1>
                 <h3>Social Media:</h3>
-                <p>Stay connected with us on social media for updates, tips, and community engagement. Follow us on Facebook, Twitter, and Instagram to join the conversation.</p>
+                <p>Stay connected with us on social media for updates, 
+                    tips, and community engagement. 
+                    Follow us on:
+                </p>
+                <div class="icons-ctn">
+                    <a href="#"><img src="./static/images/fb.svg" alt=""></a>
+                    <a href="#"><img src="./static/images/ig.svg" alt=""></a>
+                    <a href="#"><img src="./static/images/x.svg" alt=""></a>
+                    <a href="#"><img src="./static/images/in.svg" alt=""></a>
+                </div>
             </box-1>
         </div>
     </footer>
