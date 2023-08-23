@@ -4,25 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="/static/css/dashboard.css">
 </head>
 <body>
     <div class="side-bar">
         <div class="sub-side-bar">
-            <a href="./dashboard.html" class="dash">Dashboard</a>
-            <a href="#"><img src="./assets/analytics.svg" alt=""></a>
-            <a href="./request.html"><img src="./assets/req.svg" alt=""></a>
-            <a href="#"><img src="./assets/payouts.svg" alt=""></a>
-            <a href="#"><img src="./assets/settings.svg" alt=""></a>
-            <a href="./login.html"><img src="./assets/logout.svg" alt=""></a>
+            <div class="profile">
+                <img src="/static/images/user.svg" alt="">
+                <div class="user-details">
+                    <p class="name">Mickey James</p>
+                    <p class="email">mickeyj@laonpay.com</p>
+                </div>
+                
+            </div>
+            
+            <div class="user-links">
+                <a href="./dashboard.html" class="dash">
+                    <img src="/static/images/db.svg" alt="">
+                    Dashboard
+                </a>
+    
+                <a href="./dashboard.html" class="dash">
+                    <img src="/static/images/profile.svg" alt="">
+                    Profile
+                </a>
+
+                <a href="#" class="dash">
+                    <img src="/static/images/settting.svg" alt="">
+                    Settings
+                </a>
+
+                <a href="./login.html" class="dash">
+                    <img src="/static/images/logout.svg" alt="">
+                    Logout
+                </a>
+            </div>
             
         </div>
     </div>
     
     <div class="right-bar">
-        <h3>Overview</h3>
-        <img src="./assets/summary.svg" alt="">
-        <img src="./assets/charts.svg" alt="">
+        <header>
+            <h1 class="logo"><a href="/index.html">Loanpay</a></h1>
+            <nav>
+                <a href="/">Home</a>
+                <a href="./about.html">About Us</a>
+                <a href="./blog.html">Blog</a>
+                <a href="./services.html">Services</a>
+                <a href="./account/login.html">
+                    <img src="./static/images/avatar.svg" alt="">
+                <!-- <input type="button" value="Login" class="auth"> -->
+                </a>
+            </nav>
+        </header>
+        <img src="/static/images/user-dashboard.svg" alt="">
     </div>
 </body>
 </html>
