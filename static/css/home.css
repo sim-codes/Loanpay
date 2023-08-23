@@ -16,7 +16,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     width: 98vw;
-    height: auto;
+    height: 90vh;
     gap: 1em;
 }
 header{
@@ -221,7 +221,8 @@ line-height: normal;
 }
 
 .why-ctn p{
-    padding: 0 15em;
+    padding: 0 10em;
+    margin-bottom: 2em;
 }
 .home-why h2{
     color: var(--deep-blue, #2A8EF1);
@@ -237,7 +238,7 @@ p{
     color: var(--for-text, #525252);
     text-align: center;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -252,12 +253,16 @@ font-weight: 500;
 line-height: normal;
 }
 
+.how-ctn{
+    margin-bottom: 2em;
+}
+
 .how-txt p{
     text-align: left;
 }
 
 .how-txt{
-    width: 70em;
+    width: 60em;
     padding: 0 10em;
     text-align: left;
 }
@@ -279,6 +284,7 @@ line-height: normal;
     flex-wrap: wrap;
     width: 98vw;
     height: 100vh;
+    margin-bottom: 2em;
 }
 
 .apply-grid-0{
@@ -288,12 +294,12 @@ line-height: normal;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3em;
     gap: 2em;
 }
 
 .apply-txt-0{
-    width: 50em;
-    margin: 0 5em;
+    width: 40em;
     text-align: right;
 }
 
@@ -309,11 +315,12 @@ line-height: normal;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: .5em;
+    margin-bottom: 2em;
 }
 
 .apply-txt-1{
-    width: 70em;
+    width: 60em;
     padding: 0 5em;
     text-align: left;
 }
@@ -335,7 +342,7 @@ line-height: normal;
 }
 
 .path-txt{
-    width: 40em;
+    width: 30em;
     /* margin: 0 5em; */
     text-align: right;
 
