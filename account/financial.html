@@ -28,45 +28,54 @@
         <div class="form-ctn">
             <div class="breadcrumbs">
                 <a href="./personal.html">Personal Information</a>
-                <a href="./loan.html">> Loan Details</a>
-                <a href="#">Financial Information</a>
-                <a href="#">Document Upload</a>
+                <a href="./loan.html">Loan Details</a>
+                <a href="./financial.html">> Financial Information</a>
+                <a href="./doc-upload.html">Document Upload</a>
             </div>
 
-            <h2>Loan Details</h2>
+            <h2>Financial Details</h2>
             <p>Fill the form below</p>
 
-            <form action="/account/approved.html">
+            <form action="">
                 <div class="form-left">
-                    <label for="name">Loan Amount Requested:</label>
-                    <input type="text" placeholder="100000" class="txt-inp">
-                    
-                    <label for="dog-names">Purpose of loan:</label> 
-                    <select name="dog-names" id="dog-names" class="txt-inp"> 
-                        <option value="rigatoni">Personal</option> 
-                        <option value="dave">Business</option> 
-                        <option value="pumpernickel">Salary</option> 
-                        <option value="reeses">Other</option> 
+                    <label for="incomes">Monthly Income</label> 
+                    <select name="incomes" id="incomes" class="txt-inp"> 
+                        <option value="none">None</option> 
+                        <option value="first-range">N50,000 - N99,999</option> 
+                        <option value="second-range">N100,000 - N149,999</option> 
+                        <option value="other-amounts">Other amounts</option> 
                     </select>
+
+                    <label for="expenses">Monthly expenses</label> 
+                    <select name="expenses" id="expenses" class="txt-inp"> 
+                        <option value="none">None</option> 
+                        <option value="first-range">N50,000 - N99,999</option> 
+                        <option value="second-range">N100,000 - N149,999</option> 
+                        <option value="other-amounts">Other amounts</option> 
+                    </select>
+                    
+                    <label for="employment">Current Employer</label> 
                     <input type="text" placeholder="Other " class="txt-inp">
                 </div>
 
                 <div class="form-right">
-                    <div id="wrapper">
-                        <label for="yes_no_radio">Do you have a collateral to secure the loan?:</label>
-                      <p>
-                      <input type="radio" name="yes_no" checked>Yes</input>
-                      </p>
-                      <p>
-                      <input type="radio" name="yes_no">No</input>
-                      </p>
-                    </div>
-                    <label for="name">If yes provide details:</label>
-                    <input type="text" class="txt-inp">
+                    <label for="employment">Employment Status</label> 
+                    <select name="employment" id="employment" class="txt-inp"> 
+                        <option value="self-employed">Self Employed</option> 
+                        <option value="freelancer">Freelancer</option> 
+                        <option value="other">Other</option> 
+                    </select>
                     
+                    <label for="hear-about">How did you hear about us?</label> 
+                    <select name="hear-about" id="hear-about" class="txt-inp"> 
+                        <option value="social-media">Social media</option> 
+                        <option value="friend">A friend</option> 
+                        <option value="other">Other</option> 
+                    </select>
+
                     <div class="btn-ctn">
                         <a href="./loan.html" class="prev-inp">Previous</a>
-                        <a href="./financial.html" class="ns-inp">Next</a>
+                        <a href="./doc-upload.html" class="ns-inp">Next</a>
                     </div>
                     
                 </div>
