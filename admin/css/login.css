@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFF;
+    font-family: Poppins;
+    width: 95vw;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.login{
+    margin-bottom: 2em;
+    /* flex-wrap: wrap; */
+    position: absolute;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em;
+}
+
+
+.form-ctn{
+    width: 50em;
+    padding: 10em;
+}
+
+form{
+    margin-top: 3em;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.txt-inp{
+    width: 25em;
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--fade, #B4B4B4);
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+p{
+    text-align: left;
+    color: var(--for-text, #525252);
+    font-size: 20px;
+}
+
+.log-inp{
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 100px;
+    background: var(--deep-blue, #2A8EF1);  
+
+
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.sign-inp{
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 100px;
+    border: 1px solid var(--deep-blue, #2A8EF1);
+
+
+    color: var(--deep-blue, #2A8EF1);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.social-log{
+    margin: .5em;
+    display: flex;
+    align-items: center;
+    gap: 22px;  
+}
+
+.new-user-ctn{
+    margin: .5em;
+    display: flex;
+    align-items: center;
+    gap: 22px;  
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: var(--fade, #B4B4B4);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--fade, #B4B4B4);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  ::placeholder {
+    color: var(--fade, #B4B4B4);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  
+  h3{
+    color: var(--for-text, #525252);
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
