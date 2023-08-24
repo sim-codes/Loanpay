@@ -178,7 +178,7 @@ line-height: normal;
     gap: 10px;
 
     border-radius: 1000px;
-border: 1px solid var(--for-text, #525252);
+border: 1px solid var(--for-text, #969292);
 
 }
 
@@ -480,4 +480,14 @@ line-height: normal;
     justify-content: center;
     align-items: center;
     gap: .3em;
+}
+
+.admin{
+    margin-top: 2em;
+    text-decoration: none;
+    color: var(--for-text, #525252);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }

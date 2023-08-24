@@ -10,7 +10,7 @@ function payWithPaystack(e) {
     amount: document.getElementById("amount").value * 100,
     // label: "Optional string that replaces customer email"
     onClose: function(){
-      alert('Window closed.');
+      alert('Transaction terminated!.');
     },
     callback: function(response){
       let message = 'Payment complete! Reference: ' + response.reference;

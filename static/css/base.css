@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    background: #FFF;
+}
+
+header{
+    flex-wrap: wrap;
+    padding: 0 3em;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.logo{
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo a{
+    color: var(--deep-blue, #2A8EF1);
+    text-decoration: none;
+}
+
+.top-txt{
+    max-width: 30em;
+}
+
+.top-txt span{
+    color: var(--deep-blue, #2A8EF1);
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.top-btn-ctn{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.gt{
+    text-decoration: none;
+    background: var(--deep-blue, #2A8EF1);
+    padding: 10px 20px;
+    border-radius: 2em;
+    color: var(--white, #FFF);
+
+}
+.ex{
+    text-decoration: none;
+    padding: 10px 20px;
+
+    border-radius: 2em;
+border: 1px solid var(--for-text, #525252);
+
+}
+
+p{
+    color: var(--for-text, #525252);
+    font-size: 1em;
+}
+
+h2{
+    color: var(--for-text, #525252);
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.s-txt{
+    color: var(--deep-blue, #2A8EF1);
+}
+
+.path{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30em;
+    background: var(--light-bleu, rgba(241, 248, 255, 0.70));
+}
+
+.path-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 1px solid var(--for-text, #525252);
+
+    color: var(--for-text, #525252);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.path-txt h3{
+    color: var(--deep-blue, #2A8EF1);
+    text-align: right;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+
+footer{
+    height: 30em;
+}
+
+.ft-grid{
+    padding: 2em;
+    width: 90%;
+    background: var(--light-bleu, rgba(241, 248, 255, 0.70));
+}
+
+
+.footer-form{
+    margin-top: 1em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .2em;
+}
+
+footer h3{
+    color: var(--deep-blue, #2A8EF1);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.ft-txt-inp{
+    width: 15em;
+    padding: .8em;
+    border-radius: 2em;
+    border: 1px solid var(--fade, #B4B4B4);
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sub-inp{
+    padding: .8em 2em;
+    border-radius: 2em;
+    background: var(--deep-blue, #2A8EF1);  
+
+    color: var(--white, #FFF);
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.email-ctn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2em;
+}
+
+.tel-ctn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2em;
+}
+
+.icons-ctn{
+    margin-top: .5em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3em;
+}
+
+.admin{
+    margin-top: 2em;
+    text-decoration: none;
+    color: var(--for-text, #525252);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+@media only screen and (min-width: 768px) {
+    nav{
+        position: absolute;
+        top: auto;
+        right: 5em;
+    }
+}
