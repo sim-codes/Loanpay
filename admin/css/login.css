@@ -1,36 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 *{
-    margin: 0;
     outline: 0;
     border: 0;
     box-sizing: border-box;
 }
 
-body{
-    background: #FFF;
-    font-family: Poppins;
-    width: 95vw;
-    height: 90vh;
-    overflow: hidden;
-    position: relative;
-}
-
-.login{
-    margin-bottom: 2em;
-    /* flex-wrap: wrap; */
-    position: absolute;
-    display: inline-flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
-    padding: 2em;
-}
-
-
 .form-ctn{
     width: 50em;
-    padding: 10em;
+    padding: 5em;
 }
 
 form{
@@ -83,7 +61,6 @@ p{
     border-radius: 100px;
     border: 1px solid var(--deep-blue, #2A8EF1);
 
-
     color: var(--deep-blue, #2A8EF1);
     font-family: Poppins;
     font-size: 16px;
@@ -92,19 +69,6 @@ p{
     line-height: normal;
 }
 
-.social-log{
-    margin: .5em;
-    display: flex;
-    align-items: center;
-    gap: 22px;  
-}
-
-.new-user-ctn{
-    margin: .5em;
-    display: flex;
-    align-items: center;
-    gap: 22px;  
-}
 
 ::-webkit-input-placeholder { /* Edge */
     color: var(--fade, #B4B4B4);
@@ -141,4 +105,16 @@ font-size: 36px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+}
+
+.logo{
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo a{
+    color: var(--deep-blue, #2A8EF1);
+    text-decoration: none;
 }
